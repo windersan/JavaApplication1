@@ -6,8 +6,8 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class JavaApplication1 {
-	public static void main(String[] args) throws Exception {
-		String currency;                 
+    public static void main(String[] args) throws Exception {
+	String currency;                 
         Scanner scan = new Scanner(System.in);
         currency = scan.next();
         try{
