@@ -1,5 +1,5 @@
 # Build jar
-javac JavaApp.java
+javac JavaApp.java  
 jar cfe JavaApp.jar JavaApp JavaApp.class
 
 # Build image
