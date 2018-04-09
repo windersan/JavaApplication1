@@ -1,0 +1,5 @@
+FROM openjdk:jdk-alpine
+
+COPY JavaApp.jar /deployment/
+
+CMD java -jar /deployment/JavaApp.jar
