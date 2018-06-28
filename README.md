@@ -12,3 +12,6 @@ docker run -i javaapp:latest
 
 # Now the program should be running
 Just enter a currency, for example, "bitcoin"
+
+# If you have trouble at any step
+Please contact devin.a.salemi@gmail.com
