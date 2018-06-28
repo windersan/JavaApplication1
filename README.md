@@ -9,3 +9,6 @@ docker build -t javaapp -f Dockerfile.txt .
 
 # Run image
 docker run -i javaapp:latest
+
+# Now the program should be running
+Just enter a currency, for example, "bitcoin"
