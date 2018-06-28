@@ -5,7 +5,7 @@ jar cfe JavaApp.jar JavaApp JavaApp.class
 
 
 # Build image
-docker build -t javaapp:1 -f Dockerfile.txt .
+docker build -t javaapp -f Dockerfile.txt .
 
 # Run image
-docker run --dns=8.8.8.8 -i javaapp:1
+docker run -i javaapp:latest
